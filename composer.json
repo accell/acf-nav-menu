@@ -3,11 +3,29 @@
   "type": "wordpress-plugin",
   "license": "MIT",
   "description": "ACF field that allows you to select a nav menu.",
+  "homepage": "https://github.com/accell/acf-nav-menu",
+  "authors": [
+    {
+      "name": "Eric Colón",
+      "email": "me@ericcolon.com",
+      "homepage": "https://github.com/accell"
+    }
+  ],
   "keywords": [
     "acf",
     "acf-field",
     "wordpress",
     "wordpress-plugin"
+  ],
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org",
+      "only": [
+        "wpackagist-plugin/*",
+        "wpackagist-theme/*"
+      ]
+    }
   ],
   "require": {
     "php": ">=7.2"
