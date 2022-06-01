@@ -225,18 +225,6 @@ class NavMenuField extends \acf_field
     }
 
     /**
-     * The action fired when deleting a field value from the database.
-     *
-     * @param  int    $post_id
-     * @param  string $key
-     * @return void
-     */
-    public function delete_value($post_id, $key)
-    {
-        parent::delete_value($post_id, $key);
-    }
-
-    /**
      * The field after loading from the database.
      *
      * @param  array $field
@@ -256,17 +244,6 @@ class NavMenuField extends \acf_field
     public function update_field($field)
     {
         return $field;
-    }
-
-    /**
-     * The action fired when deleting a field from the database.
-     *
-     * @param  array $field
-     * @return void
-     */
-    public function delete_field($field)
-    {
-        parent::delete_field($field);
     }
 
     /**
